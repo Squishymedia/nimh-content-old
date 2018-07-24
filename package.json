@@ -1,5 +1,5 @@
 {
-  "name": "openneuro-content",
+  "name": "nimh-content",
   "main": "lib/openneuro-content.js",
   "dependencies": {
     "file-loader": "^1.1.11",
