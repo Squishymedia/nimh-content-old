@@ -11,10 +11,18 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(jpg|png|svg|ico)$/,
+        test: /\.(jpg|png|svg)$/,
         loader: 'file-loader',
         options: {
           name: 'img/[name].[hash:8].[ext]',
+          publicPath: 'content/'
+        },
+      },
+      {
+        test: /\.(ico)$/,
+        loader: 'file-loader',
+        options: {
+          name: 'img/[name].[ext]',
           publicPath: 'content/'
         },
       },

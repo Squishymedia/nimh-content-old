@@ -5,6 +5,8 @@ import fmrif from './assets/fmrif.png'
 import nih from './assets/nih.png'
 import dhhs from './assets/dhhs.png'
 import squishymedia from './assets/squishymedia.png'
+import icon from './assets/favicon.ico'
+
 
 export default {
   pageTitle: 'NIDO',
